@@ -1,0 +1,21 @@
+{
+  "name": "teqfw/back-db-repo6-php",
+  "description": "Database repository functionality (NF6, PHP)",
+  "homepage": "https://github.com/teqfw/back-db-repo6-php",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "alex@flancer64.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "TeqFw\\Lib\\Db\\Repo6": "src"
+    }
+  }
+}
