@@ -9,11 +9,13 @@ namespace TeqFw\Lib\Db\Repo6\Api;
 /**
  * Place this module's objects into container.
  */
-class Container
+class ContainerBuilder
 {
     public static function populate(\TeqFw\Lib\Di\Api\Container $container)
     {
-        $ddlEntity = $container->get(\TeqFw\Lib\Db\Repo6\Helper\Ddl\Entity::class);
-        $container->add(\TeqFw\Lib\Dem\Api\Helper\Ddl\Entity::class, $ddlEntity, true);
+        $container->populate(
+            \TeqFw\Lib\Dem\Api\Helper\Ddl\Entity::class,
+            \TeqFw\Lib\Db\Repo6\Helper\Ddl\Entity::class
+        );
     }
 }
