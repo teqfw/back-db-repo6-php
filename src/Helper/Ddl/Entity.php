@@ -14,11 +14,11 @@ use TeqFw\Lib\Dem\Helper\Parser\Config as ParserCfg;
 class Entity
     implements \TeqFw\Lib\Dem\Api\Helper\Ddl\Entity
 {
-    /** @var \TeqFw\Lib\Dem\Helper\Util\Path */
+    /** @var \TeqFw\Lib\Dem\Api\Helper\Util\Path */
     private $hlpPath;
 
     public function __construct(
-        \TeqFw\Lib\Dem\Helper\Util\Path $hlpPath
+        \TeqFw\Lib\Dem\Api\Helper\Util\Path $hlpPath
     ) {
         $this->hlpPath = $hlpPath;
     }
