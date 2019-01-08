@@ -10,10 +10,8 @@
     }
   ],
   "require": {
-    "php": "^7.1",
     "teqfw/back-dem-php": "dev-master"
   },
-  "require-dev": {},
   "autoload": {
     "psr-4": {
       "TeqFw\\Lib\\Db\\Repo6\\": "src"
