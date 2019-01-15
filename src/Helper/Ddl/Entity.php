@@ -167,7 +167,7 @@ class Entity
             case ParserCfg::ATTR_TYPE_INTEGER:
                 $result = DoctrineType::INTEGER;
                 break;
-            case ParserCfg::ATTR_TYPE_NUMERIC:
+            case ParserCfg::ATTR_TYPE_DECIMAL:
                 $result = DoctrineType::DECIMAL;
                 break;
             case ParserCfg::ATTR_TYPE_TEXT:
